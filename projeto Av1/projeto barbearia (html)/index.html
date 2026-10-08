@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../img/logomarca THBarber.png">
+  <title>THBarber</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+  
+<header>
+  <div class="logo">
+    <img src="../img/logomarca THBarber.png" alt="Logomarca barbearia">
+  </div>
+
+  <div class="header-center">
+    <h1>TH Barber</h1>
+    <p>Alinhando sua autoestima em cada detalhe</p>
+  </div>
+
+  <a href="cadastro.html">
+    <img src="../img/icone_cadastro_66x44.png" alt="Icone cadastro">
+  </a>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Início</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="#agendamento">Agendamento</a></li>
+      <li><a href="#contato">Contato</a></li>
+      <li><a href="funcionamento.html">Funcionamento</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="home">
+  <div class="home-text">
+    <h1>Mude seu visual na TH Barber</h1>
+    <br><br>
+    <li>Corte moderno ou clássico</li>
+    <li>Barba Completa</li>
+    <li>Combo Vip</li>
+  </div>
+  <img src="../img/arte barbearia.png" alt="Banner barbearia">
+</section>
+
+  <section id="servicos">
+  <div class="servicos">
+    <h1>Serviços</h1>
+
+    <div class="container-cards">
+      <div class="card">
+        <h2>Corte Masculino</h2>
+        <div class="img-wrapper">
+          <img src="../img/corte cabelo.jpg" alt="Corte Masculino">
+        </div>
+        <p>Corte moderno ou clássico com acabamento na navalha.</p>
+        <br>
+        <p>R$ 50,00</p>
+      </div>
+
+      <div class="card">
+        <h2>Barba Completa</h2>
+        <div class="img-wrapper">
+          <img src="../img/corte barba.jpg" alt="Barba Completa">
+        </div>
+        <p>Modelagem de barba com toalha quente.</p>
+        <br><br>
+        <p>R$ 40,00</p>
+      </div>
+
+      <div class="card">
+        <h2>Combo VIP</h2>
+        <div class="img-wrapper">
+          <img src="../img/corte tradicional.jpg" alt="Combo VIP">
+        </div>
+        <p>Corte cabelo + Barba + Sobrancelha com atendimento preferencial.</p>
+        <br>
+         <p>R$ 85,00</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="agendamento">
+    <h1>Agende seu Horário</h1>
+    <form action="sucesso.html" method="GET">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+      <label for="telefone">Telefone / WhatsApp:</label>
+      <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+
+      <label for="servico">Serviço:</label>
+      <select id="servico" name="servico">
+        <option value="corte">Corte Masculino</option>
+        <option value="barba">Barba Completa</option>
+        <option value="combo">Combo VIP</option>
+      </select>
+     
+      <label for="mensagem">Data e horário:</label><br>
+      <textarea id="mensagem" name="mensagem" rows="4" placeholder="Ex: Gostaria de agendar para o dia 23/09 às 15:00"></textarea>
+
+      <button type="submit">Finalizar Agendamento</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-section">
+    <h1 class="footer-title">Links Rápidos</h1>
+    <ul class="quick-links">
+      <li><a href="#home">Início</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="#agendamento">Agendamento</a></li>
+      <li><a href="#contato">Contato</a></li>
+      <li><a href="funcionamento.html">Funcionamento</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-section" id="contato"> 
+    <h1 class="footer-title">Canais de Contato</h1>
+    <div class="contact-info">
+      <p><strong>Telefone:</strong> <a href="tel:81985756673">(81) 98575-6673</a></p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/5581985756673" target="_blank">(81) 98575-6673</a></p>
+      <p><strong>E-mail:</strong> <a href="mailto:barbeariaTH@gmail.com.br">barbeariaTH@gmail.com.br</a></p>
+      <p><strong>Endereço:</strong> Av. Lindolfo Color, 200 - Paratibe-PE</p>
+
+      <div class="redes-sociais">
+        <a href="https://instagram.com" target="_blank">Instagram</a> | 
+        <a href="https://wa.me/5581985756673" target="_blank">WhatsApp</a>
+      </div>
+
+      <div class="direitos-autorais">
+        <p>&copy; 2026 Barbearia TH Barber. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
